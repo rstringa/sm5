@@ -1,7 +1,13 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
+// import './bootsrap.css'
+import './scss/estilos.scss'
+import { Roboto } from 'next/font/google'
+import Script from 'next/script'
 
-const inter = Inter({ subsets: ['latin'] })
+const roboto = Roboto(
+    { subsets: ['latin'],
+      weight:['400','700']
+    }
+  )
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +17,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      {/* <Script 
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+      strategy="lazyOnload"/> */}
+      <body>{children}</body>
     </html>
   )
 }

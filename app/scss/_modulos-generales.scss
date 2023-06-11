@@ -99,7 +99,7 @@ button:hover { cursor:pointer;}
     text-decoration: none;
     background-color:$color-4;
 }
-.dropdown-menu{box-shadow: 0 0 5px rgba(66, 66, 66, 0.25); color:$color-1;}
+.dropdown-menu{box-shadow: 0 0 5px rgba(66, 66, 66, 0.25); color:$color-1; width: fit-content;}
 .dropdown-menu .dropdown-item { padding:10px 20px; font-size:1.1rem; color:$color-1;}
 
 /* Box Tools Top */

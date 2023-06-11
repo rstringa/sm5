@@ -102,7 +102,12 @@
 .box_buscador .box_block > div { margin-top:20px;}
 
 /* Dropdown del SEARCH principal para los filtros */
-.box_buscador .box_filtros { width:100%; padding:20px; padding-top:30px; display:none;} 
+.box_buscador .box_filtros { width:100%; padding:20px; padding-top:30px; display:none; opacity: 0; transition: opacity 0.5s;} 
+.box_buscador .box_filtros.is-visible {
+	display: block;
+	opacity: 1;
+	transition: opacity 0.5s;
+}
 .box_buscador .box_filtros .box_filtros_footer { margin-top:40px;}
 .box_buscador .box_filtros .close { position:absolute; top:10px; right:20px; }
 

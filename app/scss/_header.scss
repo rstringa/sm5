@@ -28,7 +28,7 @@
 /* Submenu */
 .sub_header_full { background:#fff; box-shadow:0 2px 2px rgba(66,66,66,.25); }
 .col_sub_nav { padding-left:50px; float:left; }
-.col_sub_nav li { float:left; height:60px; line-height:60px; border-bottom:5px solid #fff; margin:0; }
+.col_sub_nav li { float:left; height:60px; line-height:60px; border-bottom:2px solid #fff; margin:0; }
 .col_sub_nav li.seleccionado {  border-color:$color-2!important; } 
 .col_sub_nav li:hover { border-color:$color-4;}
 .col_sub_nav li a { font-size:14px; display:block; padding:0 25px; color:$color-1; 

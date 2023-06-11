@@ -17,10 +17,11 @@ $blanco: #ffffff;
 $radial-enviados: #f2a771;
 $radial-abiertos: #6c994f;
 $radial-clicks:#046d89;
-
 /* Botones */
 $redondeado-normal : 5px;
-
+:root {
+	--color-principal:#ed8134;
+}
 /* Bordes */
 $color-borde-normal: #e5dfd8;
 
